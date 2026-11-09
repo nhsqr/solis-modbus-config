@@ -1,4 +1,4 @@
-name: Windows Build
+name: Build
 
 on:
   push:
@@ -23,19 +23,40 @@ jobs:
         run: pytest -q
 
   build:
-    runs-on: windows-latest
     needs: test
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: windows-latest
+            artifact: SolisModbusConfig-windows
+          - os: ubuntu-22.04
+            artifact: SolisModbusConfig-linux-x64
+          - os: macos-latest
+            artifact: SolisModbusConfig-macos-arm64
+    runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v7
       - uses: actions/setup-python@v7
         with:
           python-version: "3.12"
       - name: Install and build
+        shell: bash
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt pyinstaller
           python -m PyInstaller --noconfirm solis-modbus-config.spec
+      - name: Package
+        shell: bash
+        run: |
+          mkdir -p out
+          case "${{ runner.os }}" in
+            Windows) cp dist/SolisModbusConfig.exe out/ ;;
+            Linux)   chmod +x dist/SolisModbusConfig && tar -C dist -czf out/SolisModbusConfig-linux-x64.tar.gz SolisModbusConfig ;;
+            macOS)   ditto -c -k --keepParent dist/SolisModbusConfig.app out/SolisModbusConfig-macos-arm64.zip ;;
+          esac
+          ls -la out
       - uses: actions/upload-artifact@v7
         with:
-          name: SolisModbusConfig-windows
-          path: dist/SolisModbusConfig.exe
+          name: ${{ matrix.artifact }}
+          path: out/*

@@ -31,23 +31,47 @@ a = Analysis(
 )
 pyz = PYZ(a.pure)
 
-exe = EXE(
-    pyz,
-    a.scripts,
-    a.binaries,
-    a.datas,
-    [],
-    name="SolisModbusConfig",
-    debug=False,
-    bootloader_ignore_signals=False,
-    strip=False,
-    upx=True,
-    upx_exclude=[],
-    runtime_tmpdir=None,
-    console=False,
-    disable_windowed_traceback=False,
-    argv_emulation=False,
-    target_arch=None,
-    codesign_identity=None,
-    entitlements_file=None,
-)
+import sys
+
+if sys.platform == "darwin":
+    # macOS: onedir app bundle (onefile + windowed is unsupported on macOS)
+    exe = EXE(
+        pyz,
+        a.scripts,
+        [],
+        exclude_binaries=True,
+        name="SolisModbusConfig",
+        debug=False,
+        strip=False,
+        upx=False,
+        console=False,
+        argv_emulation=False,
+    )
+    coll = COLLECT(exe, a.binaries, a.datas, strip=False, upx=False, name="SolisModbusConfig")
+    app = BUNDLE(
+        coll,
+        name="SolisModbusConfig.app",
+        bundle_identifier="eu.nikibg.solismodbusconfig",
+        info_plist={"NSHighResolutionCapable": True},
+    )
+else:
+    exe = EXE(
+        pyz,
+        a.scripts,
+        a.binaries,
+        a.datas,
+        [],
+        name="SolisModbusConfig",
+        debug=False,
+        bootloader_ignore_signals=False,
+        strip=False,
+        upx=sys.platform == "win32",
+        upx_exclude=[],
+        runtime_tmpdir=None,
+        console=False,
+        disable_windowed_traceback=False,
+        argv_emulation=False,
+        target_arch=None,
+        codesign_identity=None,
+        entitlements_file=None,
+    )
