@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+dist/
+build/
+*.log
+.DS_Store
+*.manifest
+warn-*.txt
+
+# local app data
+settings.json
+reports/

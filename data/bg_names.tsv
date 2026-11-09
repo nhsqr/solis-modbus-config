@@ -1,0 +1,599 @@
+Real-Time Clock: Year	Часовник: година (последните 2 цифри)
+Real-Time Clock: Month	Часовник: месец
+Real-Time Clock: Day	Часовник: ден
+Real-Time Clock: Hour	Часовник: час
+Real-Time Clock: Minute	Часовник: минута
+Real-Time Clock: Second	Часовник: секунда
+Slave Address Setting	Modbus адрес (Slave ID) на инвертора
+Startup/Shutdown	Команда за включване/изключване на инвертора
+initial startup setting	Флаг за завършена първоначална настройка
+Current Battery Model	Модел (производител) на батерията
+Maximum Charging SOC	Максимален SOC при заряд
+Over-Discharge SOC	SOC на прекомерен разряд (долна граница за разряд)
+Max charge current	Максимален ток на заряд
+Max discharge current	Максимален ток на разряд
+Charge overvoltage threshold	Праг на пренапрежение при заряд
+Discharge undervoltage threshold	Праг на понижено напрежение при разряд
+Floating charge voltage threshold	Напрежение на плаващ (поддържащ) заряд
+Equalizing charge voltage threshold	Напрежение на изравнителен заряд
+Forced Charge SOC	SOC за принудителен заряд
+Rated Capacity	Номинален капацитет на батерията (Ah)
+Over-Discharge Voltage	Напрежение на прекомерен разряд
+Forced Charge Voltage	Напрежение за принудителен заряд
+Lead-Acid Battery Temperature Compensation Coefficient	Температурен коефициент на компенсация (оловно-киселинна батерия)
+Ambient Temperature Status Selection	Избор на температурен режим на околната среда (оловно-киселинна)
+Battery Reserved SOC	Резервиран SOC на батерията (за backup)
+Temperature compensation–lower limit	Температурна компенсация – долна граница
+Temperature compensation–upper limit	Температурна компенсация – горна граница
+Battery Force-charge Power Limitation	Ограничение на мощността при принудителен заряд
+Battery Force Charge Source	Източник за принудителен заряд на батерията
+Meter CT Connecting Direction Setting	Посока на свързване на CT на електромера
+Baud rate setting	Скорост на RS485 (baud rate)
+Restart HMI	Рестарт на HMI (дисплей/контролер)
+Power calibration	Калибриране на мощността
+Factory setting restore;	Възстановяване на фабричните настройки
+OV-G-V0# For CEI-#, #.S2	Пренапрежение в мрежата, степен # (CEI-#: #.S2)
+OV-G-V0#	Пренапрежение в мрежата, степен #
+UN-G-V0# For CEI-#, #.S1	Понижено напрежение в мрежата, степен # (CEI-#: #.S1)
+UN-G-V0# For CEI-#, #.S2	Понижено напрежение в мрежата, степен # (CEI-#: #.S2)
+#>S1	#>S1 – праг на повишена честота, степен S1 (CEI 0-21)
+#>S1-T	#>S1-T – време на изключване при повишена честота S1 (CEI 0-21)
+#<S1	#<S1 – праг на понижена честота, степен S1 (CEI 0-21)
+#<S1-T	#<S1-T – време на изключване при понижена честота S1 (CEI 0-21)
+#>S2F	#>S2F – праг на повишена честота, бърза степен S2 (CEI 0-21)
+#>S2F-T	#>S2F-T – време, бърза степен S2 при повишена честота
+#<S2F	#<S2F – праг на понижена честота, бърза степен S2
+#<S2F-T	#<S2F-T – време, бърза степен S2 при понижена честота
+#>S2S	#>S2S – праг на повишена честота, бавна степен S2
+#>S2S-T	#>S2S-T – време, бавна степен S2 при повишена честота
+#<S2S	#<S2S – праг на понижена честота, бавна степен S2
+#<S2S-T	#<S2S-T – време, бавна степен S2 при понижена честота
+Working Mode Set	Работен режим (мощностен режим) на инвертора
+Limit reactive power setting	Ограничение на реактивната мощност
+Limited power setting	Ограничение на активната мощност (%)
+PF setting	Фактор на мощността (PF)
+PF Setting #	Фактор на мощността (PF) – настройка #
+Clear energy record	Изчистване на енергийните броячи
+Calibrate total energy	Калибриране на общата произведена енергия
+Calibrate this month energy	Калибриране на енергията за текущия месец
+Calibrate last month energy	Калибриране на енергията за миналия месец
+Calibrate today energy	Калибриране на енергията за днес
+Calibrate yesterday energy	Калибриране на енергията за вчера
+Calibrate this year energy	Калибриране на енергията за текущата година
+Calibrate last year energy	Калибриране на енергията за миналата година
+National Standard Number	Национален (мрежов) стандарт
+Power off saving function	Запазване на настройките при изключване
+Built-in EPM Hard limit Switch (Note: Related to the Australian # new standard)	Вграден EPM – твърдо ограничение на износа (вкл./изкл., AS4777 #)
+Built-in EPM Hard limit Backflow power value (Note: Related to Australian # new standard)	Вграден EPM – твърд лимит на изнасяната мощност (AS4777 #)
+Meter/CT Placement Setting	Място на електромера/CT и EPM функции
+Setting of Maximum Grid-Fed Total Active Power	Максимална обща активна мощност, подавана към мрежата
+AFCI Turn On / Turn Off	AFCI (защита от дъгов пробив) – вкл./изкл.
+Italian Standard Mode Switching Digital Signal	Италиански стандарт – превключване по цифров сигнал
+Italy Single Test	Италиански самотест – единична защита
+One-Key Full Test (Complete Italian Self-check Items #-#)	Пълен самотест с един бутон (италиански тестове #-#)
+Battery Pcmax(%) setting	Максимална мощност на заряд на батерията Pcmax (%)
+Grid standard parameters accuracy	Точност (мащаб) на параметрите на мрежовия стандарт
+Grid Upper Voltage Limit Required for Post-Fault Recovery	Горна граница на напрежението за повторно включване след авария
+Grid Lower Voltage Limit Required for Post-Fault Recovery	Долна граница на напрежението за повторно включване след авария
+Grid Upper Frequency Limit Required for Post-Fault Recovery	Горна граница на честотата за повторно включване след авария
+Grid Lower Frequency Limit Required for Post-Fault Recovery	Долна граница на честотата за повторно включване след авария
+Grid Upper Voltage Limit Required for First Power-On	Горна граница на напрежението за първо включване
+Grid Lower Voltage Limit Required for First Power-On	Долна граница на напрежението за първо включване
+Grid Upper Frequency Limit Required for First Power-On	Горна граница на честотата за първо включване
+Grid Lower Frequency Limit Required for First Power-On	Долна граница на честотата за първо включване
+Grid Primary Over-Voltage Threshold	Пренапрежение, степен 1 – праг
+Grid Primary Over-Voltage Delay Threshold	Пренапрежение, степен 1 – време на изключване
+Grid Secondary Over-Voltage Threshold	Пренапрежение, степен 2 – праг
+Grid Secondary Over-Voltage Delay Threshold	Пренапрежение, степен 2 – време на изключване
+Grid Primary Under-Voltage Threshold	Понижено напрежение, степен 1 – праг
+Grid Primary Under-Voltage Delay Threshold	Понижено напрежение, степен 1 – време на изключване
+Grid Secondary Under-Voltage Threshold	Понижено напрежение, степен 2 – праг
+Grid Secondary Under-Voltage Delay Threshold	Понижено напрежение, степен 2 – време на изключване
+Grid Primary Over-Frequency Threshold	Повишена честота, степен 1 – праг
+Grid Primary Over-Frequency Delay Threshold	Повишена честота, степен 1 – време на изключване
+Grid Secondary Over-Frequency Threshold	Повишена честота, степен 2 – праг
+Grid Secondary Over-Frequency Delay Threshold	Повишена честота, степен 2 – време на изключване
+Grid Primary Under-Frequency Threshold	Понижена честота, степен 1 – праг
+Grid Primary Under-Frequency Delay Threshold	Понижена честота, степен 1 – време на изключване
+Grid Secondary Under-Frequency Threshold	Понижена честота, степен 2 – праг
+Grid Secondary Under-Frequency Delay Threshold	Понижена честота, степен 2 – време на изключване
+Start-up Time	Време за включване (наблюдение на мрежата преди първо включване)
+Fault Recovery Time	Време за повторно включване след авария
+#-Minute Average Over-Voltage Protection Threshold	Защита по средно #-минутно напрежение – праг
+Energy Storage Control Switch	Превключвател на режимите на съхранение (битове)
+Backup Load Function Enable Setting	Разрешаване на backup (EPS) изхода
+Backup Port AC Output Voltage Setting	Изходно напрежение на backup порта
+Backup reference Frequency setting	Изходна честота на backup порта
+Battery charge and discharge enable settings	Разрешаване на заряд/разряд на батерията
+Battery charge and discharge direction setting	Посока заряд/разряд на батерията
+Battery charge and discharge current setting	Ток на заряд/разряд на батерията
+Battery # Maximum Charging Current Setting	Батерия # – максимален ток на заряд
+Battery # Maximum Discharging Current Setting	Батерия # – максимален ток на разряд
+Battery undervoltage protection	Защита от понижено напрежение на батерията
+Battery floating charge voltage setting	Напрежение на плаващ заряд на батерията
+Battery equalizing charge voltage setting	Напрежение на изравнителен заряд на батерията
+Battery overvoltage protection	Защита от пренапрежение на батерията
+Overload Voltage Droop Setting	Спад на напрежението при претоварване (droop)
+Phase A Reverse Power Flow Setting	Фаза A – допустим обратен поток (износ) на мощност
+Phase B Reverse Power Flow Setting	Фаза B – допустим обратен поток (износ) на мощност
+Phase C Reverse Power Flow Setting	Фаза C – допустим обратен поток (износ) на мощност
+Remote Control: Inverter AC Grid Port Active Power Setting	Дист. управление: активна мощност в AC мрежовия порт
+Remote Control: Battery Discharging Power Setting	Дист. управление: мощност на разряд на батерията
+Remote Control: Battery Charging Limit Power	Дист. управление: лимит на мощността на заряд
+Remote Control: Battery Discharging Limit Power	Дист. управление: лимит на мощността на разряд
+Remote Control: Grid Regulation via Remote Control	Дист. управление: регулиране на AC порта (вкл./изкл.)
+Remote Control – Active Power on System grid connection point	Дист. управление: активна мощност в точката на присъединяване
+Remote Control – Reactive Power on System grid connection point	Дист. управление: реактивна мощност в точката на присъединяване
+Remote Control: Battery Charge/Discharge Mode Setting	Дист. управление: режим заряд/разряд на батерията
+Remote Control: Battery Charging Power Setting	Дист. управление: мощност на заряд на батерията
+Off-Grid Overdischarge SOC	SOC на прекомерен разряд в автономен режим
+EPS Overdischarge SOC	SOC на прекомерен разряд в EPS режим
+EPS Switchover Time	Време за превключване към EPS (backup)
+Meter Type and Its Installation Location	Тип на електромера и място на монтаж
+TOU Scheduled Charging Current Setting	TOU график – ток на заряд
+TOU Scheduled Discharging Current Setting	TOU график – ток на разряд
+TOU Scheduled Charging Start Hour Setting	TOU заряд, период 1 – начален час
+TOU Scheduled Charging Start Minute Setting	TOU заряд, период 1 – начална минута
+TOU Scheduled Charging End Hour Setting	TOU заряд, период 1 – краен час
+TOU Scheduled Charging End Minute Setting	TOU заряд, период 1 – крайна минута
+TOU Scheduled Discharging Start Hour Setting	TOU разряд, период 1 – начален час
+TOU Scheduled Discharging Start Minute Setting	TOU разряд, период 1 – начална минута
+TOU Scheduled Discharging End Hour Setting	TOU разряд – краен час
+TOU Scheduled Discharging End Minute Setting	TOU разряд, период 1 – крайна минута
+TOU Scheduled Charging Start Hour Setting #	TOU заряд, период # – начален час
+TOU Scheduled Charging Start Minute Setting #	TOU заряд, период # – начална минута
+TOU Scheduled Charging End Hour Setting #	TOU заряд, период # – краен час
+TOU Scheduled Charging End Minute Setting #	TOU заряд, период # – крайна минута
+TOU Scheduled Discharging Start Hour Setting #	TOU разряд, период # – начален час
+TOU Scheduled Discharging Start Minute Setting #	TOU разряд, период # – начална минута
+TOU Scheduled Discharging End Hour Setting #	TOU разряд, период # – краен час
+TOU Scheduled Discharging End Minute Setting #	TOU разряд, период # – крайна минута
+Power control mode	Режим на управление на мощността (по фази)
+A Phase Rated power Limit percentage	Фаза A – ограничение на мощността (% от номиналната)
+B Phase Rated power Limit percentage	Фаза B – ограничение на мощността (% от номиналната)
+C Phase Rated power Limit percentage	Фаза C – ограничение на мощността (% от номиналната)
+Total Grid-side Active Power Control Compensation	Компенсация (отместване) на регулирането на активната мощност към мрежата
+IV curve starting setting	Стартиране на сканиране на IV крива
+IV curve start voltage	IV крива – начално напрежение
+IV curve interval voltage	IV крива – стъпка на напрежението
+Get current IV curve number	IV крива – номер на текущата крива
+#/# Working Mode V1Set	Режим #/# (Volt-Watt) – напрежение V1
+#/#6Working Mode V2Set	Режим #/06 (Volt-Watt) – напрежение V2
+#/#6Working Mode V3Set	Режим #/06 (Volt-Watt) – напрежение V3
+#/#6Working Mode V4Set	Режим #/06 (Volt-Watt) – напрежение V4
+#/#6Working Mode P1（P1% Set）	Режим #/06 (Volt-Watt) – мощност P1 (%)
+#/#6Working Mode P2（P2% Set）	Режим #/06 (Volt-Watt) – мощност P2 (%)
+#/#6Working Mode P3（P3% Set）	Режим #/06 (Volt-Watt) – мощност P3 (%)
+#/#6Working Mode P4（P4% Set）	Режим #/06 (Volt-Watt) – мощност P4 (%)
+#2Working Mode V1Set	Режим 02 (Volt-Var Q(U)) – напрежение V1
+#2Working Mode V2Set	Режим 02 (Volt-Var Q(U)) – напрежение V2
+#2Working Mode V3Set	Режим 02 (Volt-Var Q(U)) – напрежение V3
+#2Working Mode V4Set	Режим 02 (Volt-Var Q(U)) – напрежение V4
+#2Working Mode LeadingQ （MaxLeadingVar% ）	Режим 02 (Volt-Var) – макс. изпреварваща (капацитивна) Q %
+#2Working Mode LaggingQ （MaxLaggingVar% ）	Режим 02 (Volt-Var) – макс. изоставаща (индуктивна) Q %
+# Working Mode Plock-in	Режим # (Volt-Var) – мощност на активиране (P lock-in)
+# Working Mode Plock-out	Режим # (Volt-Var) – мощност на деактивиране (P lock-out)
+#2Working Mode K Parameter	Режим 02 – параметър K
+#/#/#/#5Working mode Q response 3Tau	Режими #/#/#/05 – време за реакция на Q (3τ)
+#5Working Mode B Power（Pb% Set）	Режим 05 (P-PF) – мощност в точка B (%)
+#5Working Mode C Power（Pc% Set）	Режим 05 (P-PF) – мощност в точка C (%)
+#5Working Mode C PF（PFcSet）	Режим 05 (P-PF) – PF в точка C
+Standard Mode control switch	Превключвател на стандартните режими на работа
+Power ramp rate limit Wgra	Ограничение на скоростта на изменение на мощността (Wgra)
+EN5# Fault Trip Restart P_Ramp Rate	EN50549 – рампа на мощността при включване след авария
+EN5# Startup P_Ramp Rate	EN50549 – рампа на мощността при старт
+Working mode reset	Нулиране на работния режим
+Frequency derating mode	Режим на честотно намаляване на мощността P(f)
+Frequency Derating Parameter #	Параметър # на честотното намаляване P(f)
+Underfrequency ramping up start frequency point	Понижена честота – честота на старт на увеличаване на мощността
+Underfrequency ramping up slope	Понижена честота – наклон на увеличаване на мощността
+Grid Voltage compensation Vgrid-A-Zero	Компенсация на нулата на напрежението, фаза A
+Grid Voltage compensation Vgrid-B-Zero	Компенсация на нулата на напрежението, фаза B
+Grid Voltage compensation Vgrid-C-Zero	Компенсация на нулата на напрежението, фаза C
+Grid current sampling middle point compensation Igrid-A-Zero	Компенсация на средната точка на тока, фаза A
+Grid current sampling middle point compensation Igrid-B-Zero	Компенсация на средната точка на тока, фаза B
+Grid current sampling middle point compensation Igrid-C-Zero	Компенсация на средната точка на тока, фаза C
+Grid feedforward parameter VFB-Adj-Scale	Параметър на мрежовата права връзка (feedforward)
+Leakage current Protection ILeakLim	Защита от ток на утечка – праг
+PV iso protection RisoLim	Защита по изолация на PV – минимално съпротивление
+LVRT Setting	LVRT настройка (преминаване през пропад)
+Const Voltage Mode	Режим на постоянно напрежение
+Special Settings	Специални настройки (битове)
+Datalogger SN	Сериен номер на логера
+Datalogger IP Address	IP адрес на логера
+Datalogger signal strength	Сила на сигнала на логера
+Datalogger status word #	Статусна дума # на логера
+Remote Control: Function Switch	Дист. управление: функционални превключватели
+Remote Control: Timeout Setting	Дист. управление: време за изтичане (timeout)
+Meter Communication Access Method	Начин на комуникация с електромера
+Special Function Control Word #	Специална управляваща дума #
+AC Coupling Start SOC	AC coupling – SOC за старт
+AC Coupling Start Voltage	AC coupling – напрежение за старт
+AC Coupling Start Frequency	AC coupling – честота за старт
+Default EPM backflow power value	EPM – лимит на износа по подразбиране
+Default backflow power value execution switch	EPM – прилагане на лимита по подразбиране
+Standard Special Functin code	Специален функционален код на стандарта
+Flexible export backflow power	Гъвкав износ – лимит на мощността
+Flexible export enabling switch	Гъвкав износ – разрешаване
+Battery internal resistance setting	Вътрешно съпротивление на батерията
+Custom5#/# standard reference voltage setting	Custom50/60 стандарт – базово напрежение
+G1#-# Standard Public Grid-side Apparent Current Output Limit Setting	G100-2022 – лимит на изходния ток към мрежата
+Internal fan self-check function ON/OFF	Самопроверка на вътрешния вентилатор – вкл./изкл.
+Special function control word	Специална управляваща дума (битове)
+FCAS Droop Switch	FCAS droop – вкл./изкл.
+LSB Parameter	FCAS – параметър LSB (долна граница на честотата)
+HSB Parameter	FCAS – параметър HSB (горна граница на честотата)
+LDB Parameter	FCAS – параметър LDB (долна мъртва зона)
+HDB Parameter	FCAS – параметър HDB (горна мъртва зона)
+Pcharge	FCAS – мощност на заряд (Pcharge)
+Pdischarge	FCAS – мощност на разряд (Pdischarge)
+FCAS Frequency adjust mode	FCAS – режим на честотно регулиране
+Passive mode setting	Пасивен режим (външно управление на батерията)
+Clear grid backup overload alarm	Изчистване на аларма за претоварване на backup
+Clear AFCI Fault	Изчистване на AFCI грешка
+HMI Alarm Led Disable Setting	Изключване на алармения LED на HMI
+Factory Open Loop Test Mode Enable	Фабричен тестов режим (отворен контур)
+One Click Reset Enable Command	Нулиране с един бутон – разрешаване
+One Click Reset Operating Command	Нулиране с един бутон – изпълнение
+One Click Charge Enable Command	Заряд с един бутон – разрешаване
+One Click Charget Operating Command	Заряд с един бутон – изпълнение
+Total Backflow Current Setting	Общ лимит на тока на износ
+Phase A Backflow Current Setting	Фаза A – лимит на тока на износ
+Phase B Backflow Current Setting	Фаза B – лимит на тока на износ
+Phase C Backflow Current Setting	Фаза C – лимит на тока на износ
+VRT Enable Switch	VRT (LVRT/HVRT) – разрешаване
+Discharge SOC	SOC на разряд
+Discharge Voltage (Lead-acid)	Напрежение на разряд (оловно-киселинна)
+Lead-Acid Battery Equalization Enable	Оловно-киселинна: изравнителен заряд – разрешаване
+Lead-Acid Battery Equalization Voltage	Оловно-киселинна: напрежение на изравнителен заряд
+Lead-Acid Battery Equalization Time	Оловно-киселинна: продължителност на изравняването
+Lead-Acid Battery Equalization Timeout	Оловно-киселинна: максимално време на изравняване
+Lead-Acid Battery Equalization Interval	Оловно-киселинна: интервал между изравнявания
+Lead-Acid Battery Equalization Immediate Activation	Оловно-киселинна: незабавно изравняване
+Lead-Acid Battery Float Current Limit	Оловно-киселинна: лимит на тока при плаващ заряд
+Generator Setting Enable Switch	Генератор – разрешаване и начин на свързване (битове)
+AC input type	Тип на AC входа (мрежа/генератор)
+Max grid charging current	Максимален ток на заряд от мрежата
+Generator Start Lithium Battery SOC	Генератор – SOC за старт (литиева батерия)
+Generator Lithium Battery Charge Cut-off SOC	Генератор – SOC за спиране на заряда (литиева)
+Generator Start Lead-Acid Battery Voltage	Генератор – напрежение за старт (оловно-киселинна)
+Generator Lead-Acid Battery Charge Cut-off Voltage	Генератор – напрежение за спиране на заряда (оловно-киселинна)
+Battery Wake-up Voltage Setting	Напрежение за събуждане на батерията
+Battery Wake-up Time Setting	Време за събуждане на батерията
+Reset DSP	Рестарт на DSP
+Buzzer switch	Зумер – вкл./изкл.
+Battery cable resistance	Съпротивление на кабела на батерията
+With grid, PV supports loads	При мрежа PV захранва товарите
+No Battery, PV supports loads	Без батерия PV захранва товарите
+Overload Backup Enable	Претоварване на backup – разрешаване
+Output priority	Приоритет на изхода
+Charging priority	Приоритет на заряда
+Island function selection settings	Избор на функция за защита от остров (anti-islanding)
+MPPT Active Scanning Interval	Интервал на активно сканиране на MPPT
+CT Ratio	Коефициент на токовия трансформатор (CT)
+Generator Start/Stop in Manual Mode	Генератор – старт/стоп в ръчен режим
+Generator Rated Input Power	Генератор – номинална мощност
+Generator Setting Switch	Генератор – превключвател на настройките
+Forced Stop Generator	Принудително спиране на генератора
+Generator Maximum Allowable Percentage	Генератор – максимално допустимо натоварване (%)
+Generator Target Power	Генератор – целева мощност
+Generator Charging Power	Генератор – мощност на заряд
+Parallel Operation Total Backflow Power Setting	Паралел – общ лимит на износа
+Parallel Operation Phase A Backflow Power Setting	Паралел – фаза A, лимит на износа
+Parallel Operation Phase B Backflow Power Setting	Паралел – фаза B, лимит на износа
+Parallel Operation Phase C Backflow Power Setting	Паралел – фаза C, лимит на износа
+Function Setting Enable Switch	Разрешаване на функции (битове)
+Dry contact function selection	Функция на сухия контакт
+Battery Auto-Wake-up Duration Setting	Продължителност на автоматичното събуждане на батерията
+Upgrade Type Selection	Избор на тип обновяване на софтуера
+Single-Function Operation	Единична функция (напр. CT проверка)
+Parallel Physical Address ID	Паралел – физически адрес (ID)
+Master Create Method	Паралел – начин на избор на master
+Manual Master/Slave Setting	Паралел – ръчно задаване master/slave
+Critical Load capacity connected on this phase (where this inverter is on)	Мощност на критичните товари на тази фаза
+Inverter Connection Phase Setting	Фаза, към която е свързан инверторът
+Battery Connected Mode Setting	Начин на свързване на батериите
+Parallel parameter synchronization request	Паралел – заявка за синхронизация на параметрите
+Parallel operation - Rated capacity of connected batteries	Паралел – номинален капацитет на свързаните батерии
+Parallel operation – Number of inverters connected	Паралел – брой свързани инвертори
+Parallel communication master slave settings	Паралел – комуникационни настройки master/slave
+Parallel synchronization lock	Паралел – заключване на синхронизацията
+Standalone/Parallel Setting	Самостоятелна или паралелна работа
+Power limit setting for battery strong charging in parallel systems	Паралел – лимит на мощността при принудителен заряд
+Charging power of parallel system generator	Паралел – мощност на заряд от генератор
+Grid charge power limit for battery reserve function	Лимит на заряда от мрежата за резервна батерия
+IV curve # point scan request flag bits	IV крива – заявка за сканиране с # точки
+Serial number of # point data sets of IV curve	IV крива – номер на набора от # точки
+P and Q control OFF Command	Изключване на P и Q управлението
+DRM3 Mode Q Percent Set	DRM3 режим – реактивна мощност %
+DRM7 Mode Q Percent Set	DRM7 режим – реактивна мощност %
+Volt-watt # Mode P response Time P3Tau	Volt-Watt режим # – време за реакция на P (3τ)
+Power reduce Slop Limit (Wgra-)	Ограничение на наклона при намаляване на мощността (Wgra-)
+Battery Psmax Percent Set	Максимална мощност на разряд на батерията Psmax (%)
+Standard working mode: Reactive power percentage corresponding to V2 in 0x0# mode	Стандартен режим 0x0#: реактивна мощност % при V2
+Standard working mode: Reactive power percentage corresponding to V3 in 0x0# mode	Стандартен режим 0x0#: реактивна мощност % при V3
+Qdroop of Volt-var under Spanish NTS6# standard	Volt-Var Qdroop по испанския стандарт NTS631
+0C Working Mode Grid Export P/Q # Reactive power %	Режим 0C – износ, точка P/Q #: реактивна мощност %
+0C Working Mode Grid Import P/Q # Reactive power %	Режим 0C – внос, точка P/Q #: реактивна мощност %
+Standard working mode: Response time of Volt-Var under IEEE1#-# (UL2#-A2 and other new American standards)	Стандартен режим: време за реакция на Volt-Var (IEEE1547-2018)
+0C Working Mode Grid Export P/Q # Active power %	Режим 0C – износ, точка P/Q #: активна мощност %
+Standard working mode: Reference voltage Vref in 0x0# Volt-Var mode	Стандартен режим 0x0# Volt-Var: базово напрежение Vref
+Power Control Slope	Наклон на регулирането на мощността
+Remote Active Power Limit Percentage	Дистанционно ограничение на активната мощност (%)
+Power Control Command Word	Команда за управление на мощността
+UN-G-V #	Понижено напрежение, степен #
+UN-G-V #-T	Понижено напрежение, степен # – време
+Slope of change in surge（Wnor） power	Наклон на изменение на мощността при нормална работа (Wnor)
+Change slope of connection and reconnection （Wcon）	Наклон на мощността при включване/повторно включване (Wcon)
+Power up control slope	Наклон при увеличаване на мощността
+Power down control slope	Наклон при намаляване на мощността
+Standard operating mode: D-point power factor (PFdSet) setting in # mode	Режим #: PF в точка D (PFdSet)
+Standard operating mode: # mode P-PF and Dubai standard or Italian CEI #-# Standard enable(lock in) Grid Voltage (Vset) Settings	Режим # P-PF (Дубай / CEI 0-21): напрежение за активиране (lock-in)
+Standard operating mode: # mode P-PF and Dubai standard or Italian CEI #-# Standard disable(lockout) Grid Voltage (Vset) Settings	Режим # P-PF (Дубай / CEI 0-21): напрежение за деактивиране (lock-out)
+Active or reactive priority control settings	Приоритет на активната или реактивната мощност
+ROCOF Protection Threshold	ROCOF защита (скорост на изменение на честотата) – праг
+ROCOF Protection Time	ROCOF защита – време
+Standard working mode: Point A power percentage Pa%Set in # mode P-PF	Режим # P-PF: мощност в точка A (%)
+Standard working mode: D point power percentage setting Pd%Set in # mode P-PF	Режим # P-PF: мощност в точка D (%)
+Standard working mode: Point A power factor setting PFaSet in # mode	Режим #: PF в точка A
+Standard working mode: Point B power factor setting PFbSET in # mode	Режим #: PF в точка B
+Static voltage percentage lower limit for voltage ride-through	VRT: долна граница на статичното напрежение (%)
+static voltage percentage upper limit for voltage ride-through	VRT: горна граница на статичното напрежение (%)
+Overfrequency load shedding power lower limit limit value Droop Pmin	Повишена честота: долна граница на мощността при намаляване (Droop Pmin)
+Frequency response delay (Tintendelay) setting for EN5#-# underfrequency load rise in frequency response control mode 0E	EN50549-1: закъснение на реакцията при понижена честота (режим 0E)
+Standard Operating Mode Switch	Превключвател на стандартните режими (битове)
+Grid level # overvoltage threshold	Пренапрежение, степен # – праг
+Grid leve # overvoltage delay threshold	Пренапрежение, степен # – време
+# Mode P-PF Italy CEI #-# Standard undervoltage enable grid voltage UVlockin setting	Режим # P-PF (CEI 0-21): напрежение на активиране при понижено напрежение
+# Mode P-PF Italian CEIO-# standard P-PF C point power factor UV-PFcSet setting when under voltage	Режим # P-PF (CEI 0-21): PF в точка C при понижено напрежение
+# Mode P-PF Italy CEI #-# Standard undervoltage non-enabled grid voltage UVlockout setting	Режим # P-PF (CEI 0-21): напрежение на деактивиране при понижено напрежение
+FSM frequency sensitivity control function switch	FSM (честотно чувствителен режим) – вкл./изкл.
+FSM power change limit percentage	FSM – лимит на изменение на мощността (%)
+FSM droop settings	FSM – droop (статизъм)
+FSM response dead zone settings	FSM – мъртва зона на реакцията
+FSM frequency insensitivity settings	FSM – зона на нечувствителност по честота
+Voltage preset point in Volt-var function mode Vset-point	Volt-Var: зададена точка на напрежението (Vset)
+Over-Discharge Hysteresis SOC	Хистерезис на SOC при прекомерен разряд
+Battery Healing SOC	SOC за възстановяване (healing) на батерията
+Energy Storage Function Control Word	Управляваща дума на функциите за съхранение (битове)
+AC Coupling Stop SOC	AC coupling – SOC за спиране
+AC Coupling Stop Voltage	AC coupling – напрежение за спиране
+AC Coupling Maximum Load-Shedding Frequency	AC coupling – максимална честота за намаляване на мощността
+Peak SOC	SOC за peak-shaving
+Maximum Allowable Total Grid-side Power Import	Максимално допустима обща консумация от мрежата
+The way of historical energy query	Начин на заявка за исторически енергийни данни
+Year/month of historical energy query	Година/месец на заявката за исторически данни
+Data Types of Historical Energy Query	Тип данни на заявката за исторически данни
+Query method of fault/warning record	Начин на заявка на записите за грешки/аларми
+The query sequence number of the fault/alarm record	Пореден номер на записа за грешка/аларма
+Bluetooth connection status	Състояние на Bluetooth връзката
+Ethernet connection status	Състояние на Ethernet връзката
+Inverter networking status	Мрежово състояние на инвертора
+Inverter networking signal strength	Сила на мрежовия сигнал
+Default work mode Indicator work mode	Режим на индикатора по подразбиране
+Indicator off delay time set	Закъснение за изгасване на индикатора
+Alarm indicator enable set	Алармен индикатор – разрешаване
+Alarm indicator time set	Алармен индикатор – време
+Dry contact	Сух контакт
+Indicator board switch set	Платка на индикаторите – вкл./изкл.
+Collector network type	Тип мрежа на колектора (логера)
+Password Level	Ниво на паролата
+1st and 2nd digit password	Парола – 1-ва и 2-ра цифра
+3rd and 4th digit password	Парола – 3-та и 4-та цифра
+5th and 6th digit password	Парола – 5-та и 6-та цифра
+AFCI detection enable switch	AFCI откриване – разрешаване
+LG High Voltage Battery Parallel Switch	LG HV батерия – паралелна работа
+LG High Voltage Battery Dead-Zone Lower Limit	LG HV батерия – долна граница на мъртвата зона
+LG High Voltage Battery Dead-Zone Upper Limit	LG HV батерия – горна граница на мъртвата зона
+LG High Voltage Battery Charging Slope	LG HV батерия – наклон на заряда
+LG High Voltage Battery Maximum Charging Voltage	LG HV батерия – максимално напрежение на заряд
+LG High Voltage Battery Discharging Slope	LG HV батерия – наклон на разряда
+LG High Voltage Battery Maximum Discharging Voltage	LG HV батерия – максимално напрежение на разряд
+LG High Voltage Battery Charging Limit Power	LG HV батерия – лимит на мощността на заряд
+LG High Voltage Battery Discharging Limit Power	LG HV батерия – лимит на мощността на разряд
+LG High Voltage Battery Communication Fault Timeout	LG HV батерия – timeout при комуникационна грешка
+LG High Voltage Battery Sleep Hold Time	LG HV батерия – време до заспиване
+LG High Voltage Battery Black-Start Enable	LG HV батерия – черен старт, разрешаване
+LG High-Voltage Battery Black-Start Initialization Time	LG HV батерия – време за инициализация при черен старт
+Backup Load Droop Control Minimum Voltage	Backup товари – минимално напрежение при droop управление
+POE Enable Setting	POE/мрежови настройки (битове)
+POE IP Address	POE – IP адрес
+POE Subnet mask	POE – мрежова маска
+POE gateway	POE – шлюз (gateway)
+DNS server address	DNS сървър
+Backup DNS server address	Резервен DNS сървър
+Port number	Номер на порт
+Solis Hub Control Switch	Solis Hub – управление
+Smart Load Turn-off SOC	Smart Load – SOC за изключване
+Smart Load Turn-on SOC	Smart Load – SOC за включване
+Smart Load Turn-off Battery Voltage	Smart Load – напрежение на батерията за изключване
+Smart Load Turn-on Battery Voltage	Smart Load – напрежение на батерията за включване
+Over-Discharge Full Recovery Voltage	Напрежение за пълно възстановяване след прекомерен разряд
+Off-Grid Battery Over-Discharge SOC Function Switch	Автономен режим: функция SOC на прекомерен разряд
+Calibrate the total battery charge energy	Калибриране на общата енергия на заряд на батерията
+Calibrate the total battery discharge energy	Калибриране на общата енергия на разряд на батерията
+Calibrate the total load consumption	Калибриране на общата консумация на товарите
+Over feed in power under digital control signal	Мощност на износ при цифров управляващ сигнал
+Minimum delay time for digital control signals	Минимално закъснение при цифрови управляващи сигнали
+Maximum set feeder power at analog control signals	Максимална мощност на износ при аналогов сигнал
+Minimum set feeder power for analog control signals	Минимална мощност на износ при аналогов сигнал
+Minimum delay time at analog control signals	Минимално закъснение при аналогови управляващи сигнали
+EPS Function Control	Управление на EPS функцията
+Solis Hub connection setting	Solis Hub – настройка на връзката
+TOU Grid-Tied Optimization Revenue V2 Switch	TOU оптимизиране на приходите V2 – превключватели (битове)
+TOU Optimization Revenue V2: Grid-Tied Charging Period # Cut-off SOC	Revenue V2: заряд от мрежата, период # – SOC за спиране
+TOU Optimization Revenue V2: Grid-Tied Charging Period # Battery Current	Revenue V2: заряд от мрежата, период # – ток на батерията
+TOU Optimization Revenue V2: Grid-Tied Charging Period # Cut-off Voltage	Revenue V2: заряд от мрежата, период # – напрежение за спиране
+TOU Optimization Revenue V2: Grid-Tied Charging Period # Start Hour	Revenue V2: заряд от мрежата, период # – начален час
+TOU Optimization Revenue V2: Grid-Tied Charging Period # Start Minute	Revenue V2: заряд от мрежата, период # – начална минута
+TOU Optimization Revenue V2: Grid-Tied Charging Period # End Hour	Revenue V2: заряд от мрежата, период # – краен час
+TOU Optimization Revenue V2: Grid-Tied Charging Period # End Minute	Revenue V2: заряд от мрежата, период # – крайна минута
+TOU Optimization Revenue V2: Grid-Tied Discharging Period # Cut-off SOC	Revenue V2: разряд към мрежата, период # – SOC за спиране
+TOU Optimization Revenue V2: Grid-Tied Discharging Period # Battery Current	Revenue V2: разряд към мрежата, период # – ток на батерията
+TOU Optimization Revenue V2: Grid-Tied Discharging Period # Cut-off Voltage	Revenue V2: разряд към мрежата, период # – напрежение за спиране
+TOU Optimization Revenue V2: Grid-Tied Discharging Period # Start Hour	Revenue V2: разряд към мрежата, период # – начален час
+TOU Optimization Revenue V2: Grid-Tied Discharging Period # Start Minute	Revenue V2: разряд към мрежата, период # – начална минута
+TOU Optimization Revenue V2: Grid-Tied Discharging Period # End Hour	Revenue V2: разряд към мрежата, период # – краен час
+TOU Optimization Revenue V2: Grid-Tied Discharging Period # End Minute	Revenue V2: разряд към мрежата, период # – крайна минута
+Generator Minimum Input Power	Генератор – минимална входна мощност
+SPH SN write enable	SPH – разрешаване на запис на сериен номер
+SPH machine serial number (SN)	SPH – сериен номер на устройството
+Dual-Battery Connection Mode	Режим на свързване на две батерии
+Battery # Type Setting	Батерия # – тип (модел)
+Battery # Under-Voltage Protection Setting	Батерия # – защита от понижено напрежение
+Battery # float voltage setting	Батерия # – напрежение на плаващ заряд
+Battery # Equalization Charge Voltage Setting	Батерия # – напрежение на изравнителен заряд
+Battery # Over-Voltage Protection Setting	Батерия # – защита от пренапрежение
+Battery # Over-Discharge SOC	Батерия # – SOC на прекомерен разряд
+Battery # Over-Discharge Hysteresis SOC	Батерия # – хистерезис на SOC при прекомерен разряд
+Battery # Forced Charge SOC	Батерия # – SOC за принудителен заряд
+Battery # Auto-Wake-up Duration Setting	Батерия # – продължителност на автоматичното събуждане
+Battery # Type Setting Follows Battery #.	Батерия # – типът следва батерия #
+Generator charging switch	Генератор – график на заряда (вкл./изкл.)
+Generator charging period # cut off SOC	Генератор, период на заряд # – SOC за спиране
+Generator charging period # battery current	Генератор, период на заряд # – ток на батерията
+Generator charging period # cut-off voltage	Генератор, период на заряд # – напрежение за спиране
+Generator charging period # – Start Hour	Генератор, период на заряд # – начален час
+Generator charging period # – Start Min	Генератор, период на заряд # – начална минута
+Generator charging period # – End Hour	Генератор, период на заряд # – краен час
+Generator charging period # – End Min	Генератор, период на заряд # – крайна минута
+Generator charging period2 cut off SOC	Генератор, период на заряд 2 – SOC за спиране
+Battery # Wake-up Voltage	Батерия # – напрежение за събуждане
+Battery # Wake-up Time	Батерия # – време за събуждане
+PCS Limiting Mode Setting	PCS – режим на ограничение
+Grid-Side Load Single-Phase Protection Current Limit	Мрежова страна – еднофазен лимит на защитния ток
+PCS Input Limit Battery Current Limit	PCS – лимит на тока на батерията при ограничение на входа
+PCS Output Limit Battery Current Limit	PCS – лимит на тока на батерията при ограничение на изхода
+PV Inverter AC Output Side CT Ratio	Коефициент на CT на AC изхода на PV инвертора
+Standalone LCD screen firmware version number	Версия на софтуера на самостоятелния LCD екран
+BMS battery real-time SOC	SOC на батерията от BMS (текущ)
+Inverter light board operating indicator status setting	Състояние на индикатора на светлинната платка
+AFCI module characteristic data group number and frame number setting	AFCI модул – номер на група и кадър с данни
+Energy saving start time	Енергоспестяващ режим – начален час
+Energy saving end time	Енергоспестяващ режим – краен час
+Grid-Side Load Single-Phase Overcurrent Protection Switch	Мрежова страна – еднофазна токова защита (вкл./изкл.)
+Smart load time of use switch	Smart Load – график по време (вкл./изкл.)
+Smart load time of use switch- Period # start hour	Smart Load график, период # – начален час
+Smart load time of use switch Period 1start min	Smart Load график, период 1 – начална минута
+Smart load time of use switch Period 1end hour	Smart Load график, период 1 – краен час
+Smart load time of use switch Period 1end min	Smart Load график, период 1 – крайна минута
+Smart load time of use switch Period 2start min	Smart Load график, период 2 – начална минута
+Smart load time of use switch Period 2end hour	Smart Load график, период 2 – краен час
+Smart load time of use switch Period 2end min	Smart Load график, период 2 – крайна минута
+Smart load time of use switch Period 3start min	Smart Load график, период 3 – начална минута
+Smart load time of use switch Period 3end hour	Smart Load график, период 3 – краен час
+Smart load time of use switch Period 3end min	Smart Load график, период 3 – крайна минута
+Heat Pump Function Switch	Термопомпа – функция (вкл./изкл.)
+Heat Pump Minimum Control Time Interval	Термопомпа – минимален интервал на управление
+Heat pump plan enhancement mode Monday Period # Start hour and min	Термопомпа, понеделник, период # – начало (час:мин)
+Heat pump plan enhancement mode Monday Period # End hour and min	Термопомпа, понеделник, период # – край (час:мин)
+Heat pump plan enhancement mode Tuesday Period # Start hour and min	Термопомпа, вторник, период # – начало (час:мин)
+Heat pump plan enhancement mode Tuesday Period # End hour and min	Термопомпа, вторник, период # – край (час:мин)
+Heat pump plan enhancement mode Wednesday Period # Start hour and min	Термопомпа, сряда, период # – начало (час:мин)
+Heat pump plan enhancement mode Wednesday Period # End hour and min	Термопомпа, сряда, период # – край (час:мин)
+Heat pump plan enhancement mode Thursday Period # Start hour and min	Термопомпа, четвъртък, период # – начало (час:мин)
+Heat pump plan enhancement mode Thursday Period # End hour and min	Термопомпа, четвъртък, период # – край (час:мин)
+Heat pump plan enhancement mode Friday Period # Start hour and min	Термопомпа, петък, период # – начало (час:мин)
+Heat pump plan enhancement mode Friday Period # End hour and min	Термопомпа, петък, период # – край (час:мин)
+Heat pump plan enhancement mode Saturday Period # Start hour and min	Термопомпа, събота, период # – начало (час:мин)
+Heat pump plan enhancement mode Saturday Period # End hour and min	Термопомпа, събота, период # – край (час:мин)
+Heat pump plan enhancement mode Sunday Period # Start hour and min	Термопомпа, неделя, период # – начало (час:мин)
+Heat pump plan enhancement mode Sunday Period # End hour and min	Термопомпа, неделя, период # – край (час:мин)
+Heat Pump Intelligent Control Mode Start SOC	Термопомпа, интелигентен режим – SOC за старт
+Heat Pump Intelligent Control Mode Stop SOC	Термопомпа, интелигентен режим – SOC за спиране
+Heat Pump Intelligent Control Mode Start Voltage	Термопомпа, интелигентен режим – напрежение за старт
+Heat Pump Intelligent Control Mode Stop Voltage	Термопомпа, интелигентен режим – напрежение за спиране
+Maximum Total Feed-in Active Power under Phase Unbalance Mode	Максимална обща мощност на износ при небалансиран режим
+Paid leasing function	Функция за платен лизинг
+Paid Rental Equipment Lock Function Switch – Lock	Заключване при платен наем на оборудването
+ECO mode switch	ECO режим – вкл./изкл.
+Backup connect generator function switch	Генератор към backup порта – функция
+Backup connect generator start and stop commands	Генератор към backup порта – команди старт/стоп
+Heat Pump Schedule Mode - Daily Same Quick Settings	Термопомпа – еднакъв график за всеки ден
+Heat Pump Intelligent Control Mode Enable Power	Термопомпа, интелигентен режим – мощност за включване
+Heat Pump Intelligent Control Mode Disable Power	Термопомпа, интелигентен режим – мощност за изключване
+Password for parameter setting permission #~# digits	Парола за достъп до настройките – цифри #~#
+Parameter setting permission password #~# digits	Парола за достъп до настройките – цифри #~#
+AC coupling Max Export Control	AC coupling – управление на максималния износ
+Dynamic Reactive Power Compensation Switch	Динамична компенсация на реактивна мощност – вкл./изкл.
+LVRT enable switch	LVRT – разрешаване
+LVRT control mode	LVRT – режим на управление
+HVRT enable switch	HVRT – разрешаване
+HVRT control mode	HVRT – режим на управление
+Static voltage lower limit	Долна граница на статичното напрежение
+Static voltage upper limit	Горна граница на статичното напрежение
+Voltage sudden change limit switch(within static voltage range)	Лимит при рязка промяна на напрежението – вкл./изкл.
+Voltage sudden change limit value(within static voltage range)	Лимит при рязка промяна на напрежението – стойност
+LVRT reference voltage selection	LVRT – избор на базово напрежение
+HVRT reference voltage selection	HVRT – избор на базово напрежение
+LVRT Positive sequence factor	LVRT – коефициент за права последователност (K1)
+LVRT Negative sequence factor	LVRT – коефициент за обратна последователност (K2)
+HVRT Positive sequence factor	HVRT – коефициент за права последователност
+HVRT Negative sequence factor	HVRT – коефициент за обратна последователност
+Q/P Priority Selection	Приоритет Q/P по време на пропад
+Low voltage reactive power limit	Лимит на реактивната мощност при понижено напрежение
+High voltage reactive power limit	Лимит на реактивната мощност при повишено напрежение
+Low voltage zero current threshold	Праг за нулев ток при понижено напрежение
+High voltage zero current threshold	Праг за нулев ток при повишено напрежение
+AC Coupling Connected to AC Side	AC coupling, свързан към AC страната
+Remote Dispatch Mode Switch	EMS диспечеризация – вкл./изкл.
+Remote Dispatch Mode – Failsafe Interval	EMS – интервал на failsafe (без комуникация)
+Remote Dispatch Mode – System Limiting Switch	EMS – системни ограничения (битове)
+Remote Dispatch Mode – System Power-Draw Active Power Upper Limit	EMS – горна граница на консумацията от мрежата
+Remote Dispatch Mode – System Feed-in Active Power Upper Limit	EMS – горна граница на износа към мрежата
+Remote Dispatch Mode – Real-Time Control – Control Mode	EMS, управление в реално време – режим
+Remote Dispatch Mode – Real-Time Control – Power Setting	EMS, управление в реално време – мощност
+Remote Dispatch Mode – Real-Time Control – Function Switch	EMS, управление в реално време – функции (битове)
+Remote Dispatch Mode – Real-Time Control – SOC Lower Limit	EMS, реално време – долна граница на SOC
+Remote Dispatch Mode – Real-Time Control – SOC Upper Limit	EMS, реално време – горна граница на SOC
+Remote Dispatch Mode – Real-Time Control – Battery Reserve SOC	EMS, реално време – резервиран SOC
+Remote Dispatch Mode – Real-Time Control – PV Power-Limit Percentage	EMS, реално време – ограничение на PV мощността (%)
+Remote Dispatch Mode – Real-Time Control – Reserved #	EMS, реално време – резерв #
+Remote Dispatch Mode – Time-Scheduled Control – Period # – Switch	EMS график, период # – вкл./изкл.
+Remote Dispatch Mode – Time-Scheduled Control – Period # – Start Time Setting	EMS график, период # – начален час (час:мин)
+Remote Dispatch Mode – Time-Scheduled Control – Period # – End Time Setting	EMS график, период # – краен час (час:мин)
+Remote Dispatch Mode – Time-Scheduled Control – Period # – Control Mode	EMS график, период # – режим
+Remote Dispatch Mode – Time-Scheduled Control – Period # – Power Setting	EMS график, период # – мощност
+Remote Dispatch Mode – Time-Scheduled Control – Period # – Function Switch	EMS график, период # – функции (битове)
+Remote Dispatch Mode – Time-Scheduled Control – Period # – SOC Lower Limit	EMS график, период # – долна граница на SOC
+Remote Dispatch Mode – Time-Scheduled Control – Period # – SOC Upper Limit	EMS график, период # – горна граница на SOC
+Remote Dispatch Mode – Time-Scheduled Control – Period # – Battery Reserve SOC	EMS график, период # – резервиран SOC
+Remote Dispatch Mode – Time-Scheduled Control – Period # – PV Power-Limit Percentage	EMS график, период # – ограничение на PV мощността (%)
+Remote Dispatch Mode – Time-Scheduled Control – Period # – Reserved #	EMS график, период # – резерв #
+ARM EMS Port Baud Rate Setting	Скорост на EMS порта (ARM)
+Utility Bypass Function Switch Setting	Функция за байпас към мрежата – вкл./изкл.
+PV Storage System Grid-tied Inverter Total Capacity	PV+съхранение: обща мощност на мрежовите инвертори
+PV Storage System Grid-tied Inverter Quantity	PV+съхранение: брой мрежови инвертори
+PV Storage System Anti-Reverse-Flow Control Strategy	PV+съхранение: стратегия против обратен поток
+PV Storage System Anti-Reverse-Flow Control Mode	PV+съхранение: режим против обратен поток
+PV Storage System Total Grid-side Active Power Control Compensation	PV+съхранение: компенсация на активната мощност към мрежата
+PV Storage System Maximum Feed-in Total Active Power Setting	PV+съхранение: максимална обща мощност на износ
+PV Storage System Maximum Feed-in Hard Limit Power Setting	PV+съхранение: твърд лимит на износа
+PV Storage System G1#-# Standard Total Grid-side Current Output Limit Setting	PV+съхранение: G100-2022 лимит на изходния ток
+PV Storage System Meter # PT Voltage Ratio	PV+съхранение: електромер # – коефициент на напреженовия трансформатор
+PV Storage System Meter # CT Ratio	PV+съхранение: електромер # – коефициент на CT
+PV Storage System Meter # CT Direction	PV+съхранение: електромер # – посока на CT
+PV Storage System Meter # Type and Installation Location Settings	PV+съхранение: електромер # – тип и място на монтаж
+TCP Port Function	TCP порт (LAN) – функция и DHCP
+TCP Port IP Address	TCP порт – IP адрес
+TCP Port Subnet Mask	TCP порт – мрежова маска
+TCP Port Gateway	TCP порт – шлюз
+TCP Port DNS Server Address	TCP порт – DNS сървър
+TCP Port Secondary DNS Server Address	TCP порт – резервен DNS сървър
+Modbus TCP Connection Port Number Setting	Номер на Modbus TCP порта
+Total Grid Power Consumption Over-Limit Load Disconnect Enable	Изключване на товари при превишена консумация от мрежата – разрешаване
+Total Grid Power Consumption Over-Limit Load Disconnect Control	Изключване на товари при превишена консумация – управление
+Generator Scheduled Maintenance Function Enable Switch	Генератор – планова поддръжка (вкл./изкл.)
+Generator Scheduled Maintenance Function – Interval Time	Генератор – интервал на плановата поддръжка
+Generator Scheduled Maintenance Function – Runtime	Генератор – продължителност на работа при поддръжка
+Generator Minimum Operating Power	Генератор – минимална работна мощност
+TCP Port MAC Address Byte # & #	TCP порт – MAC адрес, байтове # и #
+DRM Mode # Logic Interface S1 Public Grid Power Feed-in Limit Value #	DRM режим #, вход S1 – лимит на износа #
+DRM Mode # Logic Interface S2 Public Grid Power Feed-in Limit Value #	DRM режим #, вход S2 – лимит на износа #
+DRM Mode # Logic Interface S3 Public Grid Power Feed-in Limit Value #	DRM режим #, вход S3 – лимит на износа #
+DRM Mode # Logic Interface S4 Grid-to-Battery Charging Power Limit Value	DRM режим #, вход S4 – лимит на заряда от мрежата
+Remote Active Power Control Port Selection Command	Избор на порт за дистанционно управление на P
+Remote Reactive Power Control Port Selection Command	Избор на порт за дистанционно управление на Q
+Power Control Battery Power Value	Управление на мощността – мощност на батерията
+Power Control AC Power Value	Управление на мощността – AC мощност
+Power Control Reactive Power Value	Управление на мощността – реактивна мощност
