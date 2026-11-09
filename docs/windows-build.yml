@@ -86,5 +86,5 @@ jobs:
             gh release delete "$TAG" -R "$REPO" --yes --cleanup-tag || true
             gh release create "$TAG" assets/* -R "$REPO" --target "$GITHUB_SHA" \
               --title "Latest build ($(echo $GITHUB_SHA | cut -c1-7))" \
-              --notes "Automatic build from main at ${GITHUB_SHA}." --latest
+              --notes "Automatic build from main at ${GITHUB_SHA}." --prerelease --latest=false
           fi
