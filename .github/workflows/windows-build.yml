@@ -60,3 +60,31 @@ jobs:
         with:
           name: ${{ matrix.artifact }}
           path: out/*
+
+  release:
+    needs: build
+    if: github.event_name == 'push' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/download-artifact@v7
+        with:
+          path: assets
+          merge-multiple: true
+      - name: Publish release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+        run: |
+          ls -la assets
+          if [[ "$GITHUB_REF" == refs/tags/v* ]]; then
+            TAG="${GITHUB_REF_NAME}"
+            gh release create "$TAG" assets/* -R "$REPO" --title "$TAG" --generate-notes --verify-tag
+          else
+            TAG=latest
+            gh release delete "$TAG" -R "$REPO" --yes --cleanup-tag || true
+            gh release create "$TAG" assets/* -R "$REPO" --target "$GITHUB_SHA" \
+              --title "Latest build ($(echo $GITHUB_SHA | cut -c1-7))" \
+              --notes "Automatic build from main at ${GITHUB_SHA}." --latest
+          fi
